@@ -11,7 +11,7 @@
 @implementation NSString (Empty)
 
 - (BOOL)isEmpty {
-    if (self == nil || self.length == 0 || [self isEqualToString:@""]) {
+    if (self == nil || self.length == 0 || [self isEqualToString:@" "]) {
         return YES;
     }
     return NO;

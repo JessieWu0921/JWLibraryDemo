@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65825BF32114459C00C2A3C7 /* JWGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65825BF12114459C00C2A3C7 /* JWGuideView.m */; };
+		65825C272114572500C2A3C7 /* NSString+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 65825C262114572500C2A3C7 /* NSString+Empty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		65825BE4211444E800C2A3C7 /* libJWLibraryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJWLibraryDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		65825BF12114459C00C2A3C7 /* JWGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWGuideView.m; sourceTree = "<group>"; };
 		65825BF22114459C00C2A3C7 /* JWGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWGuideView.h; sourceTree = "<group>"; };
+		65825C252114572500C2A3C7 /* NSString+Empty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Empty.h"; sourceTree = "<group>"; };
+		65825C262114572500C2A3C7 /* NSString+Empty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Empty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		65825BE6211444E800C2A3C7 /* JWLibraryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				65825C24211456E200C2A3C7 /* Categories */,
 				65825BF02114454200C2A3C7 /* CustomViews */,
 			);
 			path = JWLibraryDemo;
@@ -70,6 +74,15 @@
 				65825BF12114459C00C2A3C7 /* JWGuideView.m */,
 			);
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		65825C24211456E200C2A3C7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				65825C252114572500C2A3C7 /* NSString+Empty.h */,
+				65825C262114572500C2A3C7 /* NSString+Empty.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65825BF32114459C00C2A3C7 /* JWGuideView.m in Sources */,
+				65825C272114572500C2A3C7 /* NSString+Empty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

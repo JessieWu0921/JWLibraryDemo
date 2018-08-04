@@ -29,6 +29,10 @@ $ git tag <tagNo> -m "update message"
   
 $ git push origin --tags    
 
+//验证pod spec的合法性：pod lib lint or pod spec lint出现device错误的解决方法之一（我遇到的问题是：我的电脑里有两个版本的Xcode，所以simcl报错）   
+
+$ sudo xcode-select --switch /Application/Xcode.app
+
 ## 私有仓库的区别 ##
 除了.podspec文件中的描述的一些不同   
 

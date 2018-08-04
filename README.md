@@ -27,6 +27,13 @@ $ pod trunk push MyLib.podspec
 
 $ git tag <tagNo> -m "update message"    
   
-$ git push origin --tags  
+$ git push origin --tags    
+
+##私有仓库的区别
+除了.podspec文件中的描述的一些不同   
+
+//私有仓库的repo   
+$ pod repo add LibName PrivateLibRepositionUrl   
+$ pod repo push LibName LibName.podspec
 
 

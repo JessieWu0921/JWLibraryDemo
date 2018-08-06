@@ -37,7 +37,7 @@ $ sudo xcode-select --switch /Application/Xcode.app
 除了.podspec文件中的描述的一些不同   
 
 //私有仓库的repo   
-$ pod repo add LibName PrivateLibRepositionUrl   
-$ pod repo push LibName LibName.podspec
+$ pod repo add repoName PrivateLibRepositionUrl   
+$ pod repo push repoName LibName.podspec
 
 

@@ -25,7 +25,7 @@ $ pod trunk push MyLib.podspec
 
 //每次修改lib 最好都打新的tag：   
 
-$ git tag <tagNumber> -m "update message"    
+$ git tag tagNo -m "update message"    
   
 $ git push origin --tags    
 
